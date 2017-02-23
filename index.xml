@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Artem Ostankov - CV</title>
-    <link>http://www.ostankov.com/</link>
+    <link>http://www.ostankov.com/index.xml</link>
     <description>Recent content on Artem Ostankov - CV</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>

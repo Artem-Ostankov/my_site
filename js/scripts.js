@@ -13,6 +13,7 @@ var callback = function(){
     }, 2000);
 	});
 };
+
 $(document).ready(callback);
 
 var resize;
@@ -22,3 +23,8 @@ window.onresize = function() {
 		callback();
 	}, 100);
 };
+
+$('.change_icon').click(function(){
+	console.log('triggered');
+    $(this).find('.glyphicon').toggleClass('glyphicon-plus glyphicon-minus');
+});
